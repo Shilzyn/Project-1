@@ -1,0 +1,233 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(cat.jpg);
+    border-image:fill 0 linear-gradient(rgb(0, 0, 0), #ffffff7c);
+}
+
+.container {
+    background-image:url(download\ \(3\).jpg);
+    background-size: cover;
+    border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.507), #000);
+}
+
+.main-nav {
+    background-color: #0000009a;
+    position: fixed;
+    border-radius: 0 0 15px 0;
+    -webkit-border-radius: 0 0 15px 0;
+    -moz-border-radius: 0 0 15px 0;
+    -ms-border-radius: 0 0 15px 0;
+    -o-border-radius: 0 0 15px 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.main-nav ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.main-nav ul li:hover > ul {
+    display: block;
+}
+
+.main-nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+.main-nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #0000006d;
+    border-radius: 0 0 15px 15px;
+}
+
+.main-nav ul ul li {
+    width: 100%;
+}
+
+.main-nav ul ul li a {
+    padding: 10px;
+}
+
+.home, .html, .css {
+    margin-left: 25px;
+    margin-right: 25px;
+    /* padding-left: 5px;/
+    /* padding-right: 10px; */
+    color: white;
+}
+
+.header {
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: #6f6f6f; */
+    border-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #1d1d1df1;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.box div {
+    background-color: grey;
+    text-align: center;
+    margin: 40px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+}
+
+.articel-1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    background-color: #505050bf;
+    border-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 25px;
+    margin: 30px;
+    text-align: right;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.articel-2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    background-color: #616267;
+    border-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 25px;
+    margin: 30px;
+    text-align: left;
+}
+
+.header h1 {
+    color: rgb(255, 255, 255);
+    text-align: right;
+    padding-right: 25px;
+}
+
+.header ul {
+    color: rgb(255, 255, 255);
+    list-style: none;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+.header li {
+    padding: 5px;
+}
+
+.articel-1 h1 {
+    padding: 20px;
+}
+
+.articel-1 p {
+    padding: 10px;
+}
+
+.penjelasan {
+    color: aliceblue;
+    background-color: rgb(62, 66, 66);
+    margin: 15px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: left;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.penjelasan h3 {
+    /* text-align: center; */
+    color: #ffffff;
+}
+
+.penjelasan p {
+    text-align: justify;
+}
+
+.code {
+    height: 350px;
+    width: 500px;
+    margin: 25px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.code2 {
+    height: 250px;
+    width: 450px;
+    margin: 25px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+footer {
+    background-color: #212121;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+footer div {
+    color: white;
+    padding: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+
+footer div p {
+    font-size: 13px;
+}
+
+footer div img {
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    z-index: -1;
+    display: flex;
+    /* justify-content: right; */
+    /* float: right; */
+}

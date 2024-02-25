@@ -1,0 +1,163 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(cat.jpg);
+    border-image:fill 0 linear-gradient(rgb(0, 0, 0), #ffffff7c);
+}
+
+.container {
+    background-image:url(download\ \(3\).jpg);
+    background-size: cover;
+    border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.507), #000);
+}
+
+.main-nav {
+    background-color: #0000009a;
+    position: fixed;
+    border-radius: 0 0 15px 0;
+    -webkit-border-radius: 0 0 15px 0;
+    -moz-border-radius: 0 0 15px 0;
+    -ms-border-radius: 0 0 15px 0;
+    -o-border-radius: 0 0 15px 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.main-nav ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.main-nav ul li:hover > ul {
+    display: block;
+}
+
+.main-nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+.main-nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #0000006d;
+    border-radius: 0 0 15px 15px;
+}
+
+.main-nav ul ul li {
+    width: 100%;
+}
+
+.main-nav ul ul li a {
+    padding: 10px;
+}
+
+.home, .html, .css {
+    margin-left: 25px;
+    margin-right: 25px;
+    /* padding-left: 5px;/
+    /* padding-right: 10px; */
+    color: white;
+}
+
+.header {
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: #6f6f6f; */
+    border-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header h1 {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 55px;
+}
+
+.header p {
+    color: whitesmoke;
+    text-align: left;
+    padding-left: 40px;
+    margin-bottom: 45px;
+}
+
+.box {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: grey;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.box h2 {
+    padding-bottom: 15px;
+}
+
+.penjelasan {
+    margin: 15px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #c4bfbf;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+img {
+    width: 400px;
+    padding: 10px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+footer {
+    background-color: #212121;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+footer div {
+    color: white;
+    padding: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+
+footer div p {
+    font-size: 13px;
+}
+
+footer div img {
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    z-index: -1;
+    display: flex;
+    /* justify-content: right; */
+    /* float: right; */
+}
